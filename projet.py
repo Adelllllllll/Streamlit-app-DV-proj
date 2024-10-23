@@ -6,10 +6,11 @@ import seaborn as sns
 
 
 
-file_path = "C:/Users/zadel/Desktop/Cours/ING2/DV/projet/data_proj.csv"
+#file_path = "C:/Users/zadel/Desktop/Cours/ING2/DV/projet/data_proj.csv"
 
-data = pd.read_csv(file_path, sep=';')
+#data = pd.read_csv(file_path, sep=';')
 
+data = pd.read_csv("data_proj.csv", sep=';')
 
 # Titre principal de la page
 st.set_page_config(page_title="Project Presentation Dashboard", layout="wide")
